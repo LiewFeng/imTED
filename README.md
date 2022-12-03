@@ -10,7 +10,7 @@ We provide 9 configuration files in the configs directory.
 
 | Config File                                                                        | Backbone    | Epochs    | Box AP      | Mask AP   |
 | :--------------------------------------------------------------------------------: | :---------: | :-------: | :---------: | :-------: |
-| configs/imted/imted_faster_rcnn_vit_small_3x_coco.py                               | ViT-S       | 36        | 48.2        |           |  
+| configs/imted/imted_faster_rcnn_vit_small_3x_coco.py                               | ViT-S       | 36        | 48.2        |           | 
 | configs/imted/imted_faster_rcnn_vit_base_3x_coco.py                                | ViT-B       | 36        | 52.9        |           | 
 | configs/imted/imted_faster_rcnn_vit_large_3x_coco.py                               | ViT-L       | 36        | 55.4        |           | 
 | configs/imted/imted_mask_rcnn_vit_small_3x_coco.py                                 | ViT-S       | 36        | 48.7        | 42.7      | 
