@@ -44,16 +44,5 @@ tools/dist_test.sh "path/to/config/file.py" 1
 tools/dist_train.sh "path/to/config/file.py" "path/to/trained/weights.pth" 8 --eval bbox
 ```
 
-## Citation
 
-If you use this toolbox or benchmark in your research, please cite this project.
-
-```
-@article{imTED,
-  title   = {Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection},
-  author  = {Feng Liu, Xiaosong Zhang, Zhiliang Peng, Zonghao Guo, Fang Wan, Xiangyang Ji, Qixiang Ye},
-  journal= {arXiv preprint arXiv:2205.09613},
-  year={2022}
-}
-```
 
