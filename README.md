@@ -4,7 +4,7 @@ Code of [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visu
 
 The code is based on [mmdetection](https://github.com/open-mmlab/mmdetection), please refer to [get_started.md](docs/en/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
 
-## Config Files and Performance
+## Config Files and Performance and Trained Weights
 
 We provide 9 configuration files in the configs directory.
 
