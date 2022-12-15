@@ -35,13 +35,13 @@ For few-shot experiments, please refer to [FsDet](https://github.com/ucbdrive/fe
 ## Evaluating with 1 GPU
 
 ```bash
-tools/dist_test.sh "path/to/config/file.py" 1
+tools/dist_test.sh "path/to/config/file.py" "path/to/trained/weights.pth" 1 --eval bbox
 ```
 
 ## Training with 8 GPUs
 
 ```bash
-tools/dist_train.sh "path/to/config/file.py" "path/to/trained/weights.pth" 8 --eval bbox
+tools/dist_train.sh "path/to/config/file.py" 8 
 ```
 
 
