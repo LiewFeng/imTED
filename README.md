@@ -2,7 +2,7 @@
 
 Code of [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visual Object Detection](https://arxiv.org/abs/2205.09613).
 
-The Code is based on [mmdetection](https://github.com/open-mmlab/mmdetection), please refer to [get_started.md](docs/en/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
+The code is based on [mmdetection](https://github.com/open-mmlab/mmdetection), please refer to [get_started.md](docs/en/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
 
 ## Config Files and Performance
 
