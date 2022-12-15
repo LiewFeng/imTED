@@ -27,7 +27,7 @@ For ViT-S, we use a 4-layer decoder with dimension 256 for 800 epochs of pre-tra
 For ViT-B, we use an 8-layer decoder with dimension 512 for 1600 epochs of pre-training. Pre-trained weights can be downloaded from the [official MAE weight](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base_full.pth).
 For ViT-L, we use an 8-layer decoder with dimension 512 for 1600 epochs of pre-training. Pre-trained weights can be downloaded from the [official MAE weight](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_large_full.pth).
 
-## Last Step before Training
+## Last Step of Preparation
 For all experiments, remember to modify the path of pre-trained weights in the configuration files, e.g. configs/imted/imted_faster_rcnn_vit_small_3x_coco.py.
 
 For few-shot experiments, please refer to [FsDet](https://github.com/ucbdrive/few-shot-object-detection/blob/master/datasets/README.md#:~:text=2%2C%20and%203.-,COCO%3A,-cocosplit/%0A%20%20datasplit/%0A%20%20%20%20trainvalno5k) for data preparation. Remember to modify the path of json in the configuration files, e.g. configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py.
