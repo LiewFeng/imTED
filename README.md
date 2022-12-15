@@ -8,17 +8,17 @@ The Code is based on [mmdetection](https://github.com/open-mmlab/mmdetection), p
 
 We provide 9 configuration files in the configs directory.
 
-| Config File                                                                        | Backbone    | Epochs    | Box AP      | Mask AP   |
-| :--------------------------------------------------------------------------------: | :---------: | :-------: | :---------: | :-------: |
-| configs/imted/imted_faster_rcnn_vit_small_3x_coco.py                               | ViT-S       | 36        | 48.2        |           |
-| configs/imted/imted_faster_rcnn_vit_base_3x_coco.py                                | ViT-B       | 36        | 52.9        |           | 
-| configs/imted/imted_faster_rcnn_vit_large_3x_coco.py                               | ViT-L       | 36        | 55.4        |           | 
-| configs/imted/imted_mask_rcnn_vit_small_3x_coco.py                                 | ViT-S       | 36        | 48.7        | 42.7      | 
-| configs/imted/imted_mask_rcnn_vit_base_3x_coco.py                                  | ViT-B       | 36        | 53.3        | 46.4      |
-| configs/imted/imted_mask_rcnn_vit_large_3x_coco.py                                 | ViT-L       | 36        | 55.5        | 48.1      |
-| configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py         | ViT-B       | 24        | 50.6        |           |
-| configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_10shot_coco.py     | ViT-B       | 108       | 22.5        |           |
-| configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_30shot_coco.py     | ViT-B       | 108       | 30.2        |           |
+| Config File                                                                        | Backbone    | Epochs    | Box AP      | Mask AP   | Download |
+| :--------------------------------------------------------------------------------: | :---------: | :-------: | :---------: | :-------: | :-------: |
+| [imted_faster_rcnn_vit_small_3x_coco](configs/imted/imted_faster_rcnn_vit_small_3x_coco.py)                               | ViT-S       | 36        | 48.2        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EQaRZ_hrWolAr0BqGhv3PzgB6T9s-HHKIxwJvoXeDFHrrQ?e=I3Dul5) |
+| [imted_faster_rcnn_vit_base_3x_coco](configs/imted/imted_faster_rcnn_vit_base_3x_coco.py)                                | ViT-B       | 36        | 52.9        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EX11K6R1X7VGilexd6WEapoBQYLa2ZofYGXlyVLB8TJlFA?e=8gSCTg) |
+| [imted_faster_rcnn_vit_large_3x_coco](configs/imted/imted_faster_rcnn_vit_large_3x_coco.py)                               | ViT-L       | 36        | 55.4        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EW-QTq_TxxNFtMJBIn7Tfr0BHG6RXp-Yob7NirlZEzcX1A?e=atschp) |
+| [imted_mask_rcnn_vit_small_3x_coco](configs/imted/imted_mask_rcnn_vit_small_3x_coco.py)                                 | ViT-S       | 36        | 48.7        | 42.7      | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EbowkBw7LkJCjac4Ptza6HwB5VoKna-CJci8pezNNcRggA?e=GklD74) |
+| [imted_mask_rcnn_vit_base_3x_coco](configs/imted/imted_mask_rcnn_vit_base_3x_coco.py)                                  | ViT-B       | 36        | 53.3        | 46.4      | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EdXyeZpXRKtMurx-m-gzLSIBgqibthpJumIvLjni8MUNWw?e=dB454E) |
+| [imted_mask_rcnn_vit_large_3x_coco](configs/imted/imted_mask_rcnn_vit_large_3x_coco.py)                                 | ViT-L       | 36        | 55.5        | 48.1      | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EZu-46TJEjFKvy3mHbE4FlkBwSHGntKlMeDxanXfCoIJAA?e=33KZO0) |
+| [imted_faster_rcnn_vit_base_2x_base_training_coco](configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py)         | ViT-B       | 24        | 50.6        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EWedyWJx8S5Hi-8S0TGBxZwBBd7mxSFD0rvdiYqdcWXSxA?e=gra0ao) |
+| [imted_faster_rcnn_vit_base_2x_finetuning_10shot_coco](configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_10shot_coco.py)     | ViT-B       | 108       | 23.0        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/ETGkGkfywcJCuR6FzaMs21YBuHQ_7jyCYKVfj4kG46cuAQ?e=1YHKce) |
+| [imted_faster_rcnn_vit_base_2x_finetuning_30shot_coco](configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_30shot_coco.py)     | ViT-B       | 108       | 30.4        |           | [model](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EYK3tlqxWC9OiPrYi6TFycsBN-AfvbN8YIEskmpat8MZdA?e=WfnrXB) |
 
 ## MAE Pre-training
 
@@ -32,8 +32,28 @@ For all experiments, remember to modify the path of pre-trained weights in the c
 
 For few-shot experiments, please refer to [FsDet](https://github.com/ucbdrive/few-shot-object-detection/blob/master/datasets/README.md#:~:text=2%2C%20and%203.-,COCO%3A,-cocosplit/%0A%20%20datasplit/%0A%20%20%20%20trainvalno5k) for data preparation. Remember to modify the path of json in the configuration files, e.g. configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py.
 
+## Evaluating with 1 GPU
+
+```bash
+tools/dist_test.sh "path/to/config/file.py" 1
+```
+
 ## Training with 8 GPUs
 
 ```bash
-tools/dist_train.sh "path/to/config/file.py" 8
+tools/dist_train.sh "path/to/config/file.py" "path/to/trained/weights.pth" 8 --eval bbox
 ```
+
+## Citation
+
+If you use this toolbox or benchmark in your research, please cite this project.
+
+```
+@article{imTED,
+  title   = {Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection},
+  author  = {Feng Liu, Xiaosong Zhang, Zhiliang Peng, Zonghao Guo, Fang Wan, Xiangyang Ji, Qixiang Ye},
+  journal= {arXiv preprint arXiv:2205.09613},
+  year={2022}
+}
+```
+
