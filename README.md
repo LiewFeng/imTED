@@ -44,5 +44,6 @@ tools/dist_test.sh "path/to/config/file.py" "path/to/trained/weights.pth" 1 --ev
 tools/dist_train.sh "path/to/config/file.py" 8 
 ```
 
+If you have any questions with our code/paper, feel free to contact me through issue or e-mail.
 
 
