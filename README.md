@@ -1,6 +1,9 @@
 ## imTED: Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection
 
-![Framework](figs/Framework1.png)
+
+<!-- <div align=center><img src="figs/Framework1.png"></div> -->
+<div align=center><img src="figs/Framework2.png"></div>
+<!-- <div align=center><img src="figs/Framework3.png"></div> -->
 
 Code of [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visual Object Detection](https://arxiv.org/abs/2205.09613).
 
