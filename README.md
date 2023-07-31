@@ -5,7 +5,7 @@
 <div align=center><img src="figs/Framework2.png"></div>
 <!-- <div align=center><img src="figs/Framework3.png"></div> -->
 
-Code of our ICCV 2023 paper [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visual Object Detection](https://arxiv.org/abs/2205.09613).
+Code of our ICCV 2023 paper [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visual Object Detection](https://arxiv.org/abs/2205.09613). Blog in Chinese is available [here](https://zhuanlan.zhihu.com/p/645282546).
 
 The code is based on [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0), please refer to [get_started.md](docs/en/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
 
@@ -49,8 +49,13 @@ tools/dist_test.sh "path/to/config/file.py" "path/to/trained/weights.pth" 1 --ev
 tools/dist_train.sh "path/to/config/file.py" 8 
 ```
 
+
 ## Acknowledgement
 This project is based on [MAE](https://github.com/facebookresearch/mae), [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0) and [timm](https://github.com/huggingface/pytorch-image-models). Thanks for their wonderful works.
+
+## Some works based on imTED
+* [AttentionShift: Iteratively Estimated Part-Based Attention Map for Pointly Supervised Instance Segmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Liao_AttentionShift_Iteratively_Estimated_Part-Based_Attention_Map_for_Pointly_Supervised_Instance_CVPR_2023_paper.html)
+* [Proposal Distribution Calibration for Few-Shot Object Detection](https://github.com/Bohao-Lee/PDC)
 
 If you have any questions with our code/paper, feel free to contact me through issue or e-mail.
 
