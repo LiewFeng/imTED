@@ -54,9 +54,20 @@ tools/dist_train.sh "path/to/config/file.py" 8
 This project is based on [MAE](https://github.com/facebookresearch/mae), [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0) and [timm](https://github.com/huggingface/pytorch-image-models). Thanks for their wonderful works.
 
 ## Some works based on imTED
-* [AttentionShift: Iteratively Estimated Part-Based Attention Map for Pointly Supervised Instance Segmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Liao_AttentionShift_Iteratively_Estimated_Part-Based_Attention_Map_for_Pointly_Supervised_Instance_CVPR_2023_paper.html)
-* [Proposal Distribution Calibration for Few-Shot Object Detection](https://github.com/Bohao-Lee/PDC)
+* [Spatial Transform Decoupling for **Oriented Object Detection**](https://github.com/yuhongtian17/Spatial-Transform-Decoupling)
+* [AttentionShift: Iteratively Estimated Part-Based Attention Map for **Pointly Supervised Instance Segmentation**](https://openaccess.thecvf.com/content/CVPR2023/html/Liao_AttentionShift_Iteratively_Estimated_Part-Based_Attention_Map_for_Pointly_Supervised_Instance_CVPR_2023_paper.html)
+* [Proposal Distribution Calibration for **Few-Shot Object Detection**](https://github.com/Bohao-Lee/PDC)
 
-If you have any questions with our code/paper, feel free to contact me through issue or e-mail.
 
+## Citation
 
+If you find imTED is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```bibtex
+@inproceedings{liu2023integrally,
+  title={Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection},
+  author={Liu, Feng and Zhang, Xiaosong and Peng, Zhiliang and Guo, Zonghao and Wan, Fang and Ji, Xiangyang and Ye, Qixiang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={6825--6834},
+  year={2023}
+}
+```
