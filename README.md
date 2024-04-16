@@ -1,5 +1,8 @@
 # imTED: Integrally Migrating Pre-trained Transformer Encoder-decoders for Visual Object Detection
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/integral-migrating-pre-trained-transformer/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=integral-migrating-pre-trained-transformer)
+<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Integrally_Migrating_Pre-trained_Transformer_Encoder-decoders_for_Visual_Object_Detection_ICCV_2023_paper.html"><img src="https://img.shields.io/badge/ICCV2023-Paper-<color>"></a>
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2205.09613)
 
 <!-- <div align=center><img src="figs/Framework1.png"></div> -->
 <div align=center><img src="figs/Framework2.png"></div>
