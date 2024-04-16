@@ -35,7 +35,7 @@ For ViT-L, we use an 8-layer decoder with dimension 512 for 1600 epochs of pre-t
 ## Last Step of Preparation
 For all experiments, remember to modify the path of pre-trained weights in the configuration files, e.g. configs/imted/imted_faster_rcnn_vit_small_3x_coco.py.
 
-For few-shot experiments, please refer to [FsDet](https://github.com/ucbdrive/few-shot-object-detection/blob/master/datasets/README.md#:~:text=2%2C%20and%203.-,COCO%3A,-cocosplit/%0A%20%20datasplit/%0A%20%20%20%20trainvalno5k) for data preparation. Remember to modify the path of json in the configuration files, e.g. configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py.
+For few-shot experiments, please refer to [FsDet](https://github.com/ucbdrive/few-shot-object-detection/blob/master/datasets/README.md#:~:text=2%2C%20and%203.-,COCO%3A,-cocosplit/%0A%20%20datasplit/%0A%20%20%20%20trainvalno5k) for data preparation. Remember to modify the path of json in the configuration files, e.g. configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py. Json files used for few-shot training and evaluation can also be downloaded from [here](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EdDDuaUiWvlImzOHddcsGfkBHp0Me1zFMm20zGHz9l8alg?e=U3gx2I).
 
 ## Evaluating with 1 GPU
 
