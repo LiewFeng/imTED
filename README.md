@@ -51,7 +51,18 @@ tools/dist_test.sh "path/to/config/file.py" "path/to/trained/weights.pth" 1 --ev
 ```bash
 tools/dist_train.sh "path/to/config/file.py" 8 
 ```
+## Few-shot Training with 8 GPUs
 
+### Base Training
+```bash
+tools/dist_train.sh configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_base_training_coco.py 8 
+```
+
+### Finetuning
+Replace the the ckeckpoint path of your own checkpoint from base training or just use our provided checkpoint [here](https://github.com/LiewFeng/imTED/blob/main/configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_30shot_coco.py#L6C1-L6C14). 
+```bash
+tools/dist_train.sh configs/imted/few_shot/imted_faster_rcnn_vit_base_2x_finetuning_30shot_coco.py 8 
+```
 
 ## Acknowledgement
 This project is based on [MAE](https://github.com/facebookresearch/mae), [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0) and [timm](https://github.com/huggingface/pytorch-image-models). Thanks for their wonderful works.
