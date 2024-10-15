@@ -10,7 +10,7 @@
 
 Code of our ICCV 2023 paper [Integrally Migrating Pre-trained Transformer Encoder-decoders for  Visual Object Detection](https://arxiv.org/abs/2205.09613). Blog in Chinese is available [here](https://zhuanlan.zhihu.com/p/645282546).
 
-The code is based on [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0), please refer to [get_started.md](docs/en/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
+The code is based on [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.11.0), please refer to [get_started.md](docs/get_started.md) and [MMDET_README.md](MMDET_README.md) to set up the environment and prepare the data.
 
 ## Config Files and Performance and Trained Weights
 
